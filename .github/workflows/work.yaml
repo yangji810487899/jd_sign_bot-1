@@ -2,8 +2,8 @@ name: Github JD-sign bot
 
 on:
     workflow_dispatch:
-    schedule:
-        - cron: '15 6 * * *'
+    #schedule:
+    #    - cron: '15 6 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
